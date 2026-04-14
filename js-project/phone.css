@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+background-color: white;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.sortOrg{
+    width: 150px;
+    border: 1px solid white;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.sortUp{
+    width: 150px;
+    border: 1px solid white;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.sortDown{
+    width: 150px;
+    border: 1px solid white;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.btn1{
+    width: 90px;
+    border: 1px solid white;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.btn2{
+    width: 90px;
+    border: 1px solid white;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.btn3{
+    width: 90px;
+    border: 1px solid white;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 250px;
+    height: 400px;
+    transition: 0.6s;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 0 15px white;
+}
+.card h1{
+    font-size: 18px;
+}
+.col5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.col6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+.line button{
+    border-radius: 10px;
+}
+.line input{
+    padding: 8px;
+    font-size: 18px;
+}
+.line2 button{
+    border-radius: 10px;
+}
+.line2 input{
+    padding: 8px;
+    font-size: 18px;
+}
+.box .card span{
+    width: 20px;
+    display: block;
+    border-radius: 50%;
+}
+.main-text{
+    width: 250px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.picture{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 50px;
+    width: 600px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+    gap: 30px;
+    color: white;
+}
+.main{
+    color: rgb(0, 0, 0);
+    color: white;
+    font-size: 22px;
+}
+.main2{
+    color: rgb(0, 0, 0);
+    color: white;
+    font-size: 22px;
+}
+.main3{
+    color: rgb(0, 0, 0);
+    color: white;
+    font-size: 22px;
+}
+.main:hover{
+    color: blue;
+        text-decoration: underline;
+}
+.main2:hover{
+    color: blue;
+        text-decoration: underline;
+}
+.main3:hover{
+    color: blue;
+        text-decoration: underline;
+}
+.main4:hover{
+    color: blue;
+        text-decoration: underline;
+}
+.main5:hover{
+    color: blue;
+        text-decoration: underline;
+}
+.forms{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;gap: 10px;
+    color: white;
+}
+.dark-mode{
+    width:50px ;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.basket{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.login{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+.background1{
+    background: url(Gemini_Generated_Image_blyt5nblyt5nblyt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark{
+    animation: dark 0.3s linear ;
+}
+.log{
+    text-decoration: none;
+    color: black;
+}
+
+.container2{
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.282)), url(520e8ad7-b1a6-4e1f-83d3-e330104b64b7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.li1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    position: relative;
+}
+.dark-mode2{
+    width: 150px;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.big-text{
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.small-text{
+    font-size: 35px;
+    color: white;
+}
+.activity1{
+    background-color: white;
+    color: black;
+}
+.activity2{
+    color: black;
+}
+.activity3{
+    color: black;
+}
+.activity4{
+    color: black;
+}
+.activity5{
+    color: black;
+}
+.activity6{
+    color: black;
+}
+.activity7{
+    background-color: black;
+    color: white;
+}
+.activity8{
+    background-color: black;
+    color: white;
+}
+.activity9{
+    background-color: black;
+    color: white;
+}
+.activity10{
+    color: white;
+}
+.activity11{
+    background: #026fdcf4;
+}
+.infos{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logout{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+}
